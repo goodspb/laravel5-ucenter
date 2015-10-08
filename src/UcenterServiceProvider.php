@@ -1,4 +1,4 @@
-<?php namespace Goodspb\Ucenter;
+<?php namespace Goodspb\Laravel5Ucenter;
 
 use Illuminate\Support\ServiceProvider;
 

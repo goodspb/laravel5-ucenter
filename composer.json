@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Goodspb\\Ucenter\\": "src/"
+            "Goodspb\\Laravel5Ucenter\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.1-dev"
         }
     }
 }

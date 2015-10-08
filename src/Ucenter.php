@@ -1,4 +1,4 @@
-<?php namespace Goodspb\Ucenter;
+<?php namespace Goodspb\Laravel5Ucenter;
 
 	if(!defined('UC_API')){
 		$config = \Illuminate\Support\Facades\Config::get('ucenter::config');

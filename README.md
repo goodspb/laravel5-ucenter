@@ -17,13 +17,13 @@ Laravel 5 / 5.1 ucenter.
 安装完后，在 `app/config/app.php` 文件中找到 `providers` 键，
 
 ~~~
-Goodspb\Ucenter\UcenterServiceProvider::class,
+Goodspb\Laravel5Ucenter\UcenterServiceProvider::class,
 ~~~
 
 找到 `aliases` 键，
 
 ~~~
-'Ucenter' => Goodspb\Ucenter\Facades\Ucenter::class,
+'Ucenter' => Goodspb\Laravel5Ucenter\Facades\Ucenter::class,
 ~~~
 
 ## 配置

@@ -1,4 +1,4 @@
-<?php namespace Goodspb\Ucenter\Facades;
+<?php namespace Goodspb\Laravel5Ucenter\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -10,7 +10,7 @@ class Ucenter extends Facade {
 	 * @return string
 	 */
 	protected static function getFacadeAccessor() {
-		return 'ucenter';
+		return 'Ucenter';
 	}
 
 }

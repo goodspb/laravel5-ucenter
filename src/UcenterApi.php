@@ -1,4 +1,4 @@
-<?php namespace Goodspb\Ucenter;
+<?php namespace Goodspb\Laravel5Ucenter;
 
 define('UC_CLIENT_VERSION', '1.6.0');	//note UCenter 版本标识
 define('UC_CLIENT_RELEASE', '20110501');

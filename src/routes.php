@@ -1,5 +1,5 @@
 <?php
 	Route::any(Config::get('ucenter::url'), function(){
-		return \Goodspb\Ucenter\UcenterApi::execute();
+		return \Goodspb\Laravel5Ucenter\UcenterApi::execute();
 	});
 ?>
