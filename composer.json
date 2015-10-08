@@ -16,7 +16,7 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Goodspb\\Ucenter\\": "src/"
         }
     },
