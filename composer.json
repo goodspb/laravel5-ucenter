@@ -1,0 +1,24 @@
+{
+    "name": "goodspb/laravel5-ucenter",
+    "description": "Larave5 ucenter",
+    "keywords": ["laravel5", "ucenter"],
+    "homepage": "https://github.com/goodspb/laravel5-ucenter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "goodspb",
+            "email": "goodspb@qq.com",
+			"homepage": "http://www.goodspb.net",
+			"role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Goodspb\\Ucenter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
