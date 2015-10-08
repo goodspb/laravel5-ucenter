@@ -2,7 +2,7 @@
 
 Laravel 5 / 5.1 ucenter.
 
-[![Latest Stable Version](https://poser.pugx.org/wehnhew/ucenter/v/stable.png)](https://packagist.org/packages/goodspb/laravel5-ucenter) 
+[![Latest Stable Version](https://poser.pugx.org/goodspb/laravel5-ucenter/v/stable)](https://packagist.org/packages/goodspb/laravel5-ucenter) [![License](https://poser.pugx.org/goodspb/laravel5-ucenter/license)](https://packagist.org/packages/goodspb/laravel5-ucenter) [![Total Downloads](https://poser.pugx.org/goodspb/laravel5-ucenter/downloads)](https://packagist.org/packages/goodspb/laravel5-ucenter)
 
 ### 安装
 
