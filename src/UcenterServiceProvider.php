@@ -2,7 +2,10 @@
 
 use Illuminate\Support\ServiceProvider;
 
-
+/**
+ * Class UcenterServiceProvider
+ * @package Goodspb\Laravel5Ucenter
+ */
 class UcenterServiceProvider extends ServiceProvider {
 
 	/**

@@ -26,6 +26,10 @@ define('UC_KEY',\Illuminate\Support\Facades\Config::get('ucenter::key'));
 
 define('API_ROOT', __DIR__.'/');
 
+/**
+ * Class UcenterApi
+ * @package Goodspb\Laravel5Ucenter
+ */
 class UcenterApi{
 	public static function execute()
 	{
