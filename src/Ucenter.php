@@ -25,5 +25,14 @@
 		{
 			return call_user_func_array($api, $params);
 		}
+
+		public function __call($function, $arguments)
+		{
+			if (function_exists($function)) {
+				return call_user_func_array($function, $arguments);
+			} else {
+				throw new \Exception("function not exists");
+			}
+		}
 	}
 ?>

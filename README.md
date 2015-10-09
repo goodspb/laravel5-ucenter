@@ -52,8 +52,14 @@ ucenter配置项
 
 ## 使用
 例如：获取用户名为admin的信息
+###### 1、使用execute
 ~~~
 $result = Ucenter::execute('uc_get_user',['admin']);
+var_dump($result);
+~~~
+###### 2、直接使用方法名
+~~~
+$result = Ucenter::uc_get_user('admin');
 var_dump($result);
 ~~~
 
