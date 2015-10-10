@@ -35,7 +35,7 @@ class UcenterServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bind('ucenter', function ($app) {
+		$this->app->bind('Ucenter', function ($app) {
 			return new Ucenter();
 		});
 	}
