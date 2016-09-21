@@ -5,7 +5,7 @@ namespace Goodspb\Laravel5Ucenter;
 use Config;
 
 if(!defined('UC_API')){
-	$config = Config::get('ucenter::config');
+	$config = Config::get('ucenter.config');
 	define('UC_CONNECT', $config['connect']);
 	define('UC_DBHOST', $config['dbhost']);
 	define('UC_DBUSER', $config['dbuser']);

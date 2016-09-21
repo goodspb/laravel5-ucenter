@@ -22,7 +22,7 @@ define('API_RETURN_SUCCEED', 1);
 define('API_RETURN_FAILED', -1);
 define('API_RETURN_FORBIDDEN', -2);
 
-define('UC_KEY',\Illuminate\Support\Facades\Config::get('ucenter::key'));
+define('UC_KEY',\Illuminate\Support\Facades\Config::get('ucenter.key'));
 
 define('API_ROOT', __DIR__.'/');
 
