@@ -27,14 +27,12 @@ Goodspb\Laravel5Ucenter\UcenterServiceProvider::class,
 ~~~
 
 ## 配置
-运行以下命令将配置复制到 `app\config` 方便修改配置
-~~~
-php artisan config:publish
-~~~
+将以下配置保存到 `根\config` 的 ucenter.php中,或者直接从该项目的src/config中拷贝过去
+
 ucenter配置项
 ~~~
-//config.php
-'url'       => env('ucenter_url','/api/ucapi'), // 网站UCenter接受数据地址
+//ucenter.php
+'url'       => env('ucenter_url','/api/ucapi'), // 网站UCenter接受数据地址 注意路由配置
 'api'       => env('ucenter_api','http://localhost/ucenter'), // UCenter 的 URL 地址, 在调用头像时依赖此常量
 'connect'   => env('ucenter_connect','mysql'), // 连接 UCenter 的方式: mysql/NULL, 默认为空时为 fscoketopen()
 'dbhost'    => env('ucenter_dbhost','localhost'), // UCenter 数据库主机
@@ -49,6 +47,10 @@ ucenter配置项
 'appid'     => env('ucenter_appid',5), //当前应用的 ID
 'ppp'       => env('ucenter_ppp',20), //当前应用的每页数量
 ~~~
+
+
+路由配置
+将该项目中的src/routes.php中的路由定义配置到对应自己项目中的routes.php文件中
 
 ## 使用
 例如：获取用户名为admin的信息
